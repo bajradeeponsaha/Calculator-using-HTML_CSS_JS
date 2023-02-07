@@ -1,7 +1,11 @@
+@font-face {
+    font-family: Digital-mono;
+    src: url("digital-7 (mono).ttf");
+}
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: Digital-mono, sans-serif;
     box-sizing: border-box;
 }
 
@@ -51,6 +55,6 @@ form input.equal {
     width: 145px;
 }
 
-form input.operator{
+form input.highlighter{
     color: #33ffd8;
 }
